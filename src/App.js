@@ -1,9 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import EmptyContainer from './components/EmptyContainer';
 
 function App() {
-  return ;
+  return <EmptyContainer/>;
   // (
   //   <div className="App">
   //     <header className="App-header">
