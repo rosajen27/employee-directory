@@ -1,0 +1,74 @@
+[
+    {
+      "name": "Michael Scott",
+      "position": "Manager",
+      "number": "123-456-7890",
+      "email": "mscott@email.com",
+    },
+    {
+      "name": "Jim Halpert",
+      "position": "Co-Manager",
+      "number": "123-456-7891",
+      "email": "jhalpert@email.com",
+    },
+    {
+      "name": "Pam Beasley",
+      "position": "Secretary",
+      "number": "123-456-7892",
+      "email": "pbeasley@email.com",
+    },
+    {
+      "name": "Dwight Schrute",
+      "position": "Salesman",
+      "number": "123-456-7893",
+      "email": "dschrute@email.com",
+    },
+    {
+      "name": "Phyllis Vance",
+      "position": "Salesman",
+      "number": "123-456-7894",
+      "email": "pvance@email.com",
+    },
+    {
+      "name": "Stanley Hudson",
+      "position": "Salesman",
+      "number": "123-456-7895",
+      "email": "shudson@email.com",
+    },
+    {
+      "name": "Angela Martin",
+      "position": "Accountant",
+      "number": "123-456-7896",
+      "email": "amartin@email.com",
+    },
+    {
+    "name": "Oscar Martinez",
+    "position": "Accountant",
+    "number": "123-456-7897",
+    "email": "omartinez@email.com",
+  },
+  {
+    "name": "Kevin Malone",
+    "position": "Accountant",
+    "number": "123-456-7898",
+    "email": "kmalone@email.com",
+  },
+  {
+    "name": "Creed Bratton",
+    "position": "Quality Assurance",
+    "number": "123-456-7899",
+    "email": "cbratton@gmail.com",
+  },
+  {
+    "name": "Meredith Palmer",
+    "position": "Accountant",
+    "number": "123-456-7810",
+    "email": "mpalmer@email.com",
+  },
+  {
+    "name": "Oscar Martinez",
+    "position": "Accountant",
+    "number": "123-456-7897",
+    "email": "omartinez@email.com",
+  },
+  ]
