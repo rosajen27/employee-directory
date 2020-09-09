@@ -4,9 +4,11 @@ function Footer() {
 
     const currentYear = new Date().getFullYear();
 
-    return <p>
+    return <footer>
+    <p>
         Copyright © Jennifer Rosa {currentYear}
     </p>
+    </footer>
 }
 
 export default Footer;
