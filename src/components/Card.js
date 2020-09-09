@@ -1,13 +1,16 @@
 import React from "react";
+import { propTypes } from "react-bootstrap/esm/Image";
 
-function Card() {
+function Card(props) {
   return (
     <div className="card">
-      <h1>Employee Name</h1>
-      <p>Position:</p>
-      <p>Number:</p>
-      <p>Email:</p>
-    </div >
+      <h1>{props.name}</h1>
+      <img src={props.img} alt="avatar_img" width="200px"/>
+      <p>{props.position}</p>
+      <p>{props.location}</p>
+      <p>{props.phonenumber}</p>
+      <p>{props.email}</p>
+    </div>
   );
 }
 
