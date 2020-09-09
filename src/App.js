@@ -1,12 +1,12 @@
 import React from "react";
 
-import Jumbotron from "./components/Jumbotron";
+import Header from "./components/Header";
 import Card from "./components/Card";
 
 function App() {
   return (
     <div className="container">
-      <Jumbotron />
+      <Header />
       <Card />
     </div>
   );
