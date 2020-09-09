@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Michael Scott",
+    "position": "Manager",
+    "location": "Scranton, PA",
+    "number": "123-456-7890",
+    "email": "mscott@example.com"
+  },
+  {
+    "name": "Jim Halpert",
+    "position": "Co-Manager",
+    "location": "Scranton, PA",
+    "number": "123-456-7891",
+    "email": "jhalpert@example.com"
+  },
+  {
+    "name": "Pam Beasley",
+    "position": "Secretary",
+    "location": "Scranton, PA",
+    "number": "123-456-7892",
+    "email": "pbeasley@example.com"
+  },
+  {
+    "name": "Dwight Schrute",
+    "position": "Assistant to the Regional Manager",
+    "location": "Scranton, PA",
+    "number": "123-456-7893",
+    "email": "dschrute@example.com"
+  },
+  {
+    "name": "Phyllis Vance",
+    "position": "Sales",
+    "location": "Scranton, PA",
+    "number": "123-456-7894",
+    "email": "pvance@example.com"
+  },
+  {
+    "name": "Stanley Hudson",
+    "position": "Sales",
+    "location": "Scranton, PA",
+    "number": "123-456-7895",
+    "email": "shudson@example.com"
+  },
+  {
+    "name": "Angela Martin",
+    "position": "Accountant",
+    "location": "Scranton, PA",
+    "number": "123-456-7896",
+    "email": "amartin@example.com"
+  },
+  {
+    "name": "Oscar Martinez",
+    "position": "Accountant",
+    "location": "Scranton, PA",
+    "number": "123-456-7897",
+    "email": "omartinez@example.com"
+  },
+  {
+    "name": "Kevin Malone",
+    "position": "Accountant",
+    "location": "Scranton, PA",
+    "number": "123-456-7898",
+    "email": "kmalone@example.com"
+  },
+  {
+    "name": "Creed Bratton",
+    "position": "Quality Assurance",
+    "location": "Scranton, PA",
+    "number": "123-456-7899",
+    "email": "cbratton@gmail.com"
+  },
+  {
+    "name": "Meredith Palmer",
+    "position": "Supplier Relations",
+    "location": "Scranton, PA",
+    "number": "123-456-7810",
+    "email": "mpalmer@example.com"
+  },
+  {
+    "name": "Andy Bernard",
+    "position": "Sales",
+    "location": "Scranton, PA",
+    "number": "123-456-7811",
+    "email": "abernard@example.com"
+  },
+  {
+    "name": "Kelly Kapoor",
+    "position": "Customer Service",
+    "location": "Scranton, PA",
+    "number": "123-456-7812",
+    "email": "kkapoor@example.com"
+  },
+  {
+    "name": "Ryan Howard",
+    "position": "Intern",
+    "location": "Scranton, PA",
+    "number": "123-456-7813",
+    "email": "rhoward@example.com"
+  },
+  {
+    "name": "Toby Flenderson",
+    "position": "Human Resources",
+    "location": "Scranton, PA",
+    "number": "123-456-7814",
+    "email": "tflenderson@example.com"
+  }
+]
