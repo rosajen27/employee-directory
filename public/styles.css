@@ -49,7 +49,7 @@ footer p {
 }
 
 .card h1 {
-  font-size: 1.1em;
+  font-size: 1.5em;
   margin-bottom: 6px;
 }
 
@@ -58,4 +58,10 @@ footer p {
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.circle-img {
+  border-radius: 20%;
+  border: 3px solid #fff;
+  width: 100%;
 }

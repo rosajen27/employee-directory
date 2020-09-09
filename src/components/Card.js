@@ -4,8 +4,8 @@ import { propTypes } from "react-bootstrap/esm/Image";
 function Card(props) {
   return (
     <div className="card">
+      <img className="circle-img" src={props.img} alt="avatar_img"/>
       <h1>{props.name}</h1>
-      <img src={props.img} alt="avatar_img" width="200px"/>
       <p>{props.position}</p>
       <p>{props.location}</p>
       <p>{props.phonenumber}</p>
