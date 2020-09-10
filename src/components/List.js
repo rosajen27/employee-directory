@@ -8,6 +8,7 @@ function List(props) {
       <Container>
         <Card
           key={i}
+          image={user.image}
           name={user.name}
           position={user.position}
           location={user.location}

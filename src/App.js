@@ -2,7 +2,6 @@ import React from "react";
 
 import Header from "./components/Header";
 import Search from "./components/Search";
-import Card from "./components/Card";
 import List from "./components/List";
 import Footer from "./components/Footer";
 import { Component } from 'react';
@@ -31,7 +30,6 @@ class App extends Component {
         <Header />
         <Search handleInput={this.handleInput} />
         <List filteredUsers={filteredUsers} />
-        <Card />
         <Footer />
       </div>
     );
