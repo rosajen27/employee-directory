@@ -3,26 +3,39 @@ import React from "react";
 import Header from "./components/Header";
 import Search from "./components/Search";
 import Card from "./components/Card";
+import List from "./components/List";
 import Footer from "./components/Footer";
+import { Component } from 'react';
 
+import employeeData from './utils/employeeData.json';
 
-function App() {
-  return (
-    <div className="container">
-      <Header />
-      <Search />
-      <Card 
-      name="Michael Scott" 
-      img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.1V0Ei9ijyx_UvXlim104fAHaHa%26pid%3DApi&f=1" 
-      position="Regional Manager"
-      location="Scranton, PA"
-      phonenumber="(123) 123-4567" 
-      email="mscott@email.com"
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { users: employeeData, searchUser: '' };
+  }
 
-      />
-      <Footer />
-    </div>
-  );
+  handleInput = e => {
+    console.log(e.target.value);
+    this.setState({ searchUser: e.target.value });
+  };
+
+  render() {
+    let filteredUsers = this.state.users.filter(user => {
+      return user.name
+        .toLowerCase()
+        .includes(this.state.searchUser.toLowerCase());
+    });
+    return (
+      <div className="App">
+        <Header />
+        <Search handleInput={this.handleInput} />
+        <List filteredUsers={filteredUsers} />
+        <Card />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
