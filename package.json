@@ -12,13 +12,12 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "reactstrap": "^8.5.1"
-    
   },
   "scripts": {
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start": "node index.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,18 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "An employee directory created with React. An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rosajen27/employee-directory.git"
-  },
-  "author": "Jennifer Rosa (Rosajen27)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rosajen27/employee-directory/issues"
-  },
-  "homepage": "https://github.com/rosajen27/employee-directory#readme"
+  }
 }
