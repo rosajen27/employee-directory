@@ -15,7 +15,7 @@ An employee directory created with React. An employee or manager would benefit g
 
 ## Deployment
 
-Deployed Website: 
+Deployed Website: https://rosa-employee-directory.herokuapp.com/
 
 ![employee-directory.png](./public/employee-directory.png)
 
