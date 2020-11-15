@@ -13,8 +13,7 @@ body {
 header {
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   margin: auto -16px;
-  padding: 16px 32px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 50px 32px;
 }
 
 header h1 {
@@ -22,7 +21,6 @@ header h1 {
 }
 
 footer {
-  position: fixed;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -39,7 +37,6 @@ footer p {
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
   width: 240px;
-  min-height: 400px;
   margin: 16px;
   float: left;
 }
@@ -47,6 +44,7 @@ footer p {
 .card h1 {
   font-size: 1.5em;
   margin-bottom: 6px;
+  padding-top: 10px;
 }
 
 .card p {
@@ -54,13 +52,15 @@ footer p {
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+  color: hsl(237, 12%, 33%);
 }
 
 .circle-img {
   border-radius: 100px;
-  border: 1px solid #f5ba13;
+  border: 3px solid hsl(240, 73%, 65%);
   width: 150px;
   height: 150px;
+  box-shadow: 0 2px 5px #ccc;
 }
 
 input {
@@ -68,6 +68,7 @@ input {
   margin-bottom: 20px;
   height: 40px;
   width: 90%;
+  padding: 10px;
 }
 
 button {
