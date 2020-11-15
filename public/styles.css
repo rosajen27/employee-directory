@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 body {
@@ -22,7 +22,6 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
   font-weight: 200;
 }
 
@@ -63,9 +62,9 @@ footer p {
 
 .circle-img {
   border-radius: 100%;
-  border: 5px solid #f5ba13;
+  border: 2px solid #f5ba13;
   width: 150px;
-  height: 175px;
+  height: 150px;
 }
 
 input {
