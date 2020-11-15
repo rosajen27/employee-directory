@@ -30,7 +30,6 @@ class App extends Component {
         <Header />
         <Search handleInput={this.handleInput} />
         <List filteredUsers={filteredUsers} />
-        <Footer />
       </div>
     );
   }
