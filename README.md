@@ -1,6 +1,6 @@
 # Employee Directory
 
-An employee directory created with React. An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+An employee or manager would benefit greatly from being able to utilize an Employee Directory to view non-sensitive data about other employees. This Employee Directory was created with REACT and allows the user to search and filter employees by name.
 
 
 ## Table of Contents
