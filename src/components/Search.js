@@ -2,7 +2,7 @@ import React from 'react';
 
 function Search(props) {
   return (
-    <div>
+    <div class="search">
       <input
         onChange={props.handleInput}
         type="text"
