@@ -6,7 +6,7 @@ When the user loads the page, a table of employees will render.
 
 The user will be able to:
 
-  * Sort the table by at least one category
+  * Sort the table by at least one category.
 
   * Filter the users by at least one property.
 
