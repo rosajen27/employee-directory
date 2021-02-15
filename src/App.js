@@ -3,7 +3,6 @@ import React from "react";
 import Header from "./components/Header";
 import Search from "./components/Search";
 import List from "./components/List";
-import Footer from "./components/Footer";
 import { Component } from 'react';
 
 import employeeData from './utils/employeeData.json';
