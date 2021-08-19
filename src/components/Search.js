@@ -6,7 +6,7 @@ function Search(props) {
       <input
         onChange={props.handleInput}
         type="text"
-        placeholder="Employee Name"
+        placeholder="Search Employee Name"
       />
       <button type="submit">Search</button>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return <header>
-    <h1>Employee Directory</h1>
+    <h1>Dunder Mifflin Paper Company, Inc.</h1>
   </header>
 }
 
