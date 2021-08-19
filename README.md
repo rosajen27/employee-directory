@@ -1,14 +1,6 @@
-# Employee Directory
+# 👤 Employee Directory
 
 An employee directory that enables users to search and view non-sensitive data about other employees.
-
-When the user loads the page, a table of employees will render. 
-
-The user will be able to:
-
-  * Sort the table by at least one category.
-
-  * Filter the users by at least one property.
 
 
 ## Table of Contents
@@ -34,9 +26,10 @@ Demo: https://rosa-employee-directory.herokuapp.com/
 
 ## Built With
 
+* React
+* JavaScript
 * HTML
 * CSS
-* React.js
 * JSON
 
 
